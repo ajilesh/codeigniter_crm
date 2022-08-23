@@ -9,7 +9,7 @@
               <div class="card">
                 <form class="form-horizontal" id="customer">
                   <div class="card-body">
-                    <h4 class="card-title">Personal Info</h4>
+                    <h4 class="card-title">Customer Info</h4>
                     <div class="form-group row">
                       <label
                         for="fname"
@@ -99,7 +99,7 @@
                   </div>
                   <div class="border-top">
                     <div class="card-body">
-                        <input type="submit" name="csubmit" value="SUBMIT">
+                        <input type="submit" name="csubmit" value="SUBMIT" style="background-color:#27a9e3;color:white;border-color: #27a9e3;">
                       <!-- <button type="submit" class="btn btn-primary">
                         Submit
                       </button> -->
