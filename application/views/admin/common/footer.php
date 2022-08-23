@@ -19,20 +19,21 @@
     <!-- All Jquery -->
     <!-- ============================================================== -->
     <script src="<?php echo base_url();?>libs/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js">
-    <!-- Bootstrap tether Core JavaScript -->
+    
+      
+    <!-- Bootstrap tether Core JavaScript  -->
     <script src="<?php echo base_url();?>libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="<?php echo base_url();?>libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
     <script src="<?php echo base_url();?>extra-libs/sparkline/sparkline.js"></script>
-    <!--Wave Effects -->
+    <!-- Wave Effects -->
     <script src="<?php echo base_url();?>dist/js/waves.js"></script>
-    <!--Menu sidebar -->
+    <!-- Menu sidebar  -->
     <script src="<?php echo base_url();?>dist/js/sidebarmenu.js"></script>
-    <!--Custom JavaScript -->
+    <!-- Custom JavaScript  -->
     <script src="<?php echo base_url();?>dist/js/custom.min.js"></script>
-    <!--This page JavaScript -->
-    <!-- <script src="../dist/js/pages/dashboards/dashboard1.js"></script> -->
-    <!-- Charts js Files -->
+    <!-- This page JavaScript  -->
+     <!-- <script src="../dist/js/pages/dashboards/dashboard1.js"></script> -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js">
     <script src="<?php echo base_url();?>libs/flot/excanvas.js"></script>
     <script src="<?php echo base_url();?>libs/flot/jquery.flot.js"></script>
     <script src="<?php echo base_url();?>libs/flot/jquery.flot.pie.js"></script>

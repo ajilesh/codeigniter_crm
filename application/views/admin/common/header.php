@@ -27,7 +27,7 @@
     <!-- Custom CSS -->
     <link href="<?php echo base_url();?>libs/flot/css/float-chart.css" rel="stylesheet" />
     <!-- Custom CSS -->
-    <link href="<?php echo base_url();?>/dist/css/style.min.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>dist/css/style.min.css" rel="stylesheet" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -341,7 +341,7 @@
                   aria-expanded="false"
                 >
                   <img
-                    src="../assets/images/users/1.jpg"
+                    src="<?php echo base_url();?>assets/images/users/1.jpg"
                     alt="user"
                     class="rounded-circle"
                     width="31"
@@ -366,7 +366,7 @@
                     Setting</a
                   >
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="javascript:void(0)"
+                  <a class="dropdown-item" href="<?php echo base_url();?>logout"
                     ><i class="fa fa-power-off me-1 ms-1"></i> Logout</a
                   >
                   <div class="dropdown-divider"></div>
@@ -458,19 +458,19 @@
                   href="javascript:void(0)"
                   aria-expanded="false"
                   ><i class="mdi mdi-receipt"></i
-                  ><span class="hide-menu">Forms </span></a
+                  ><span class="hide-menu">Customers </span></a
                 >
                 <ul aria-expanded="false" class="collapse first-level">
                   <li class="sidebar-item">
-                    <a href="form-basic.html" class="sidebar-link"
+                    <a href="<?php echo base_url();?>customer" class="sidebar-link"
                       ><i class="mdi mdi-note-outline"></i
-                      ><span class="hide-menu"> Form Basic </span></a
+                      ><span class="hide-menu"> Add Customer </span></a
                     >
                   </li>
                   <li class="sidebar-item">
-                    <a href="form-wizard.html" class="sidebar-link"
-                      ><i class="mdi mdi-note-plus"></i
-                      ><span class="hide-menu"> Form Wizard </span></a
+                    <a href="<?php echo base_url();?>listcustomer" class="sidebar-link"
+                      ><i class="mdi mdi-note-outline"></i
+                      ><span class="hide-menu"> List Customer </span></a
                     >
                   </li>
                 </ul>

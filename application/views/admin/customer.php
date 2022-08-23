@@ -96,6 +96,7 @@
                         <textarea class="form-control" id="message" name="message"></textarea>
                       </div>
                     </div>
+                    <span id="errmsg"></span>
                   </div>
                   <div class="border-top">
                     <div class="card-body">
@@ -103,9 +104,12 @@
                       <!-- <button type="submit" class="btn btn-primary">
                         Submit
                       </button> -->
+                      
                     </div>
+                    
                   </div>
                 </form>
+                
               </div>
              
               
@@ -164,8 +168,17 @@
                             url:'<?php echo base_url();?>customerInsert',
                             data:{firstname: fname,contact:contact,lastname: lname,company : company,message:message,[csrfName]: csrfHash },
                             type:'post',
+                            dataType:'json',
                             success:function(data){
                                 console.log(data);
+                                if(data.status == 1)
+                                {
+                                  $('#errmsg').html(data.msg);
+                                  
+                                }
+                                else{
+                                  $('#errmsg').html(data.msg);
+                                }
                             }
                         });
                     }

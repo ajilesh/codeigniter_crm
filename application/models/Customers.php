@@ -15,7 +15,7 @@ class Customers extends CI_Model{
     // ];
     public function insertData()
     {
-        //print_r($data);
+       
         $data = array(
         'firstName' => $this->input->post('firstname'),
         'lastName' => $this->input->post('lastname'),
@@ -38,7 +38,7 @@ class Customers extends CI_Model{
                 'msg' => 'Failed Insert'
             );
         }
-        print_r($result);
+        echo json_encode($result);
         
     }
 }
