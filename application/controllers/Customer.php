@@ -18,6 +18,12 @@ class Customer extends CI_Controller {
         
         
 	}
+    public function listcustomer()
+    {
+        $this->load->view('admin/common/header');
+        $this->load->view('admin/listcustomer');
+        $this->load->view('admin/common/footer');
+    }
     public function insertData()
     {
        //echo "test";
